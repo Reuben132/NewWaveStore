@@ -14,6 +14,7 @@
 		20001F802927FE64001FE34E /* NewWaveStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001F7F2927FE64001FE34E /* NewWaveStoreTests.swift */; };
 		20001F8A2927FE64001FE34E /* NewWaveStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001F892927FE64001FE34E /* NewWaveStoreUITests.swift */; };
 		20001F8C2927FE64001FE34E /* NewWaveStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001F8B2927FE64001FE34E /* NewWaveStoreUITestsLaunchTests.swift */; };
+		20001F99292803CA001FE34E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001F98292803CA001FE34E /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		20001F852927FE64001FE34E /* NewWaveStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewWaveStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20001F892927FE64001FE34E /* NewWaveStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITests.swift; sourceTree = "<group>"; };
 		20001F8B2927FE64001FE34E /* NewWaveStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaveStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20001F98292803CA001FE34E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		20001F6D2927FE5D001FE34E /* NewWaveStore */ = {
 			isa = PBXGroup;
 			children = (
+				20001F9A29280754001FE34E /* Model */,
+				20001F9B2928076C001FE34E /* Views */,
 				20001F6E2927FE5D001FE34E /* NewWaveStoreApp.swift */,
-				20001F702927FE5D001FE34E /* ContentView.swift */,
 				20001F722927FE64001FE34E /* Assets.xcassets */,
 				20001F742927FE64001FE34E /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				20001F8B2927FE64001FE34E /* NewWaveStoreUITestsLaunchTests.swift */,
 			);
 			path = NewWaveStoreUITests;
+			sourceTree = "<group>";
+		};
+		20001F9A29280754001FE34E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20001F98292803CA001FE34E /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20001F9B2928076C001FE34E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20001F702927FE5D001FE34E /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				20001F712927FE5D001FE34E /* ContentView.swift in Sources */,
 				20001F6F2927FE5D001FE34E /* NewWaveStoreApp.swift in Sources */,
+				20001F99292803CA001FE34E /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
