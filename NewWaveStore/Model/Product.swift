@@ -15,7 +15,7 @@ class Product : ObservableObject {
     @Published var quantity: Int
     @Published var price: Double
     
-    init(name: String = "ya mum", description: String = "wadya think? its ya mum", picture: String = "", quantity: Int = 0, price: Double = 0.0) {
+    init(name: String = "ya mum", description: String = "wadya think? its ya mum", picture: String = "mummy", quantity: Int = 1, price: Double = 0.0) {
         self.name = name
         self.description = description
         self.picture = picture
