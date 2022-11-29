@@ -18,6 +18,8 @@
 		20001F9D29280898001FE34E /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001F9C29280898001FE34E /* ProductList.swift */; };
 		20001F9F292C05C5001FE34E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001F9E292C05C5001FE34E /* Constants.swift */; };
 		20001FA3292C079D001FE34E /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001FA2292C079D001FE34E /* ProductView.swift */; };
+		20001FA529352F3A001FE34E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001FA429352F3A001FE34E /* HomeView.swift */; };
+		20001FA72935302A001FE34E /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20001FA62935302A001FE34E /* ProductDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		20001F9C29280898001FE34E /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		20001F9E292C05C5001FE34E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		20001FA2292C079D001FE34E /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		20001FA429352F3A001FE34E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		20001FA62935302A001FE34E /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +146,6 @@
 				20001F9E292C05C5001FE34E /* Constants.swift */,
 				20001F98292803CA001FE34E /* Product.swift */,
 				20001F9C29280898001FE34E /* ProductList.swift */,
-				20001FA2292C079D001FE34E /* ProductView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -150,7 +153,10 @@
 		20001F9B2928076C001FE34E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				20001FA2292C079D001FE34E /* ProductView.swift */,
+				20001FA429352F3A001FE34E /* HomeView.swift */,
 				20001F702927FE5D001FE34E /* ContentView.swift */,
+				20001FA62935302A001FE34E /* ProductDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20001F9F292C05C5001FE34E /* Constants.swift in Sources */,
+				20001FA72935302A001FE34E /* ProductDetailView.swift in Sources */,
+				20001FA529352F3A001FE34E /* HomeView.swift in Sources */,
 				20001F712927FE5D001FE34E /* ContentView.swift in Sources */,
 				20001F9D29280898001FE34E /* ProductList.swift in Sources */,
 				20001F6F2927FE5D001FE34E /* NewWaveStoreApp.swift in Sources */,
